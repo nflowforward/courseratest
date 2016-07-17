@@ -18,7 +18,7 @@ body {
 
 
 .chickenbox {
-    width: 500px;
+    width: 400px;
     height: 200px;
     border: 9px solid brown;
     margin-top: 20px;
@@ -32,7 +32,7 @@ float:left;
 }
 
 .beefbox {
-    width: 500px;
+    width: 400px;
     height: 200px;
     
     border: 9px solid brown;
@@ -44,7 +44,7 @@ float:left;
 }
 .sushibox {
 
-    width: 500px;
+    width: 400px;
     height: 200px;
     float:left;
     border: 9px solid brown;
