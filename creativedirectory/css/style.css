@@ -20,7 +20,7 @@ body {
 .chickenbox {
     width: 300px;
     height: 100px;
-    border: 1px solid blue;
+    border: 5px solid blue;
     box-sizing: border-box;
 
 
@@ -31,7 +31,7 @@ body {
     width: 300px;
     height: 100px;
     padding: 70px;
-    border: 10px solid red;
+    border: 5px solid red;
     box-sizing: border-box;
 
 }
@@ -40,7 +40,7 @@ body {
     width: 300px;
     height: 100px;
     padding: 70px;
-    border: 10px solid red;
+    border: 5px solid red;
     box-sizing: border-box;
 
 }
