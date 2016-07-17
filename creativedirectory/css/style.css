@@ -23,7 +23,7 @@ body {
     border: 5px solid red;
     margin-top: 20px;
     margin-bottom: 10px;
-    
+    float:left;
 
     
 
@@ -37,6 +37,7 @@ body {
     
     border: 5px solid red;
     margin-bottom: 10px;
+    float:center;
     
   
 
@@ -47,6 +48,7 @@ body {
     height: 100px;
     float:left;
     border: 5px solid red;
+    float:right;
     
     
 
