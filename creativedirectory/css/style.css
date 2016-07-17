@@ -1,0 +1,57 @@
+@charset "UTF-8";
+h1, h3, p {
+	text-align: center;
+
+	
+}
+
+body {
+    background-color:lightgrey;
+}
+
+
+.chickenbox {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+float:right;
+
+}
+
+.beefbox {
+    width: 300px;
+    height: 100px;
+    padding: 70px;
+    border: 10px solid red;
+    box-sizing: border-box;
+float:top;
+}
+.sushibox 
+
+    width: 300px;
+    height: 100px;
+    padding: 70px;
+    border: 10px solid red;
+    box-sizing: border-box;
+float:top;
+
+
+
+}
+
+
+
+
+
+
+
+footer {
+	margin-top: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #383838;
+	color: #FFFFFF;
+	text-align: center;
+}
+
