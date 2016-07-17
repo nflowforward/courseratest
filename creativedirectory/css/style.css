@@ -6,8 +6,8 @@ p {
 	
 }
 h1 {
-	text text-align: center;
-	text-shadow: 25px; 
+	text-align: center;
+	text-shadow: 50px; 
 	text-decoration-color: brown;
 
 }
@@ -23,7 +23,7 @@ body {
     border: 5px solid red;
     margin-top: 20px;
     margin-bottom: 10px;
- 
+float:left; 
 
     
 
@@ -38,7 +38,7 @@ body {
     border: 5px solid red;
     margin-bottom: 10px;
    
-    
+    float:left;
   
 
 }
@@ -48,6 +48,7 @@ body {
     height: 100px;
     float:left;
     border: 5px solid red;
+    float:left;
  
     
     
