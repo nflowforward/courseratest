@@ -23,6 +23,8 @@ body {
     border: 5px solid red;
     padding-bottom: 5px;
     box-sizing: border-box;
+
+    display:block;
  float:left;
 
 
@@ -35,6 +37,7 @@ body {
     border: 5px solid red;
     box-sizing: border-box;
     float:center;
+    display:block;
 
 }
 .sushibox {
@@ -45,6 +48,7 @@ body {
     border: 5px solid red;
     box-sizing: border-box;
 float:right;
+display: block;
 }
 
 
