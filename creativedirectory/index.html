@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Responsive with css page</title>
-
+<style>
 <!-- Bootstrap -->
 <!--<link href="css/bootstrap.css" rel="stylesheet">-->
 <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -15,80 +15,164 @@
 
 
 
-
-
-
-
-
-<style>
-
 </head>
 
-<h1>this is a our first page menu</h1>
+
+
+
+
+
+
 
 
 
 
 <body>
+       <h1>this is our first page</h1>
+
+/*tablet*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    #chickenbox
+    {
+        width:30%
+        height:10%;
+        margin-right:10px;
+        margin-bottom: 15px;
+        float:left;
+        background-color: #AFFFF4;
+        border-color: #aaffdd;
+    }
+
+    #beefbox{
+
+    	width:30%
+        height:10%;
+        margin-bottom: 15px;
+        background-color: red;
+       border-color: #ff4444;
+        float:left;
 
 
-<!--
-<div class="chickenbox">this is the chicken menu. we only have chicken breast for now </div><span>
-<div class="beefbox">this is the beef menu</div></span><span>
-<div class="sushibox">are you into sushi?</div></span>
--->
+    }
 
 
-<div class="row">            
- <div class="col-lg-4 col-md-6 col-sm-12">
-   <div class="chickenbox">                    
-      <h3 class="section" align="right">Chicken</h2>
+
+    #sushibox{
+
+    	width:90%
+        height:10%;
+        margin-top: 15px;
+        padding-top: 15px;
+      
+        clear:right;
+        float:center;
+        background-color:black;
+        border-color:#345ffe;
+    }
+}
+/* desktop*/
+
+
+@media(min-width: 992px) {
+    #chickenbox
+    {
+       width:50%
+        height:10%;
+        
+        float:left;
+     background-color: #AFFFF4;
+        border-color: #aaffdd; 
+        margin-right: 25px; 
+
+        
+    }
+
+#beefbox{
+
+    	width:50%
+        height:10%;
+        margin-right: 25px;
+        float:left;
+       background-color:#cccccc; 
+
+    }
+
+
+
+    #sushibox{
+
+    	width:50%
+        height:10%;
+        margin-left:25px;
+        float:left;
+      background-color:#aabbcc; 
+
+    }
+
+}
+
+/* mobile*/
+
+
+@media (max-width: 767px){
+#chickenbox
+    {
+        width:70%
+        height:10%;
+        background-color: #AFFFF4;
+        border-color: #aaffdd;
+    }
+
+#beefbox{
+
+    	width:70%
+        height:10%;
+background-color:#aabbcc;
+    }
+
+
+
+    #sushibox{
+
+    	width:70%
+        height:10%;
+         background-color:#ffffff;
+    }
+}
+
+
+
+
+
+
+</style>
+
+
+<div class="row">
+<div class="chickenbox col-lg-4">
+<h4 class="section" align ="right" >chicken</h4>
+      
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
+</div>
+
+
+   <div class="beefbox col-lg-4">
+   <h4 class ="section" align="right">beef</h4>
+
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
+   </div>
+      
+
+   <div class="sushibox col-lg-4">
+   <h4 class ="section" align="right">sushi</h4>
+
+
+
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
    </div>
-
-<div class="col-lg-4 col-md-6 col-sm-12">-->
-   <div class="beefbox">                    
-      <h3 class="section" align="right">beef</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-   </div>
-
-   <div class="sushibox col-lg-4 col-md-6  col-sm-12">                    
-      <h3 class="section" align="right">sushi</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, molestias, cumque! Odio illum quisquam sint porro exercitationem natus in consectetur blanditiis sunt, dolor aliquam magnam necessitatibus nobis mollitia quo obcaecati!</p>
-   </div>
-
-
- </div>            
-
-
-<!--
-<body>
-    <h1>Our Menu</h1>
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="section">
-                <h2 class="chicken">Chicken</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloribus error, voluptatum corporis quae cum neque. Provident incidunt eos quaerat architecto harum laborum rerum nihil vel tempora accusamus odit cumque, ipsum earum odio rem commodi, repudiandae, recusandae dicta. Minus at et alias hic quisquam quis in. Possimus suscipit iusto quo?</p>
-            </div>
-        </div>
-         <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="section">
-                <h2 class="beef">Beef</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloribus error, voluptatum corporis quae cum neque. Provident incidunt eos quaerat architecto harum laborum rerum nihil vel tempora accusamus odit cumque, ipsum earum odio rem commodi, repudiandae, recusandae dicta. Minus at et alias hic quisquam quis in. Possimus suscipit iusto quo?</p>
-            </div>
-        </div>
-         <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="section">
-                <h2 class="sushi">Sushi</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic doloribus error, voluptatum corporis quae cum neque. Provident incidunt eos quaerat architecto harum laborum rerum nihil vel tempora accusamus odit cumque, ipsum earum odio rem commodi, repudiandae, recusandae dicta. Minus at et alias hic quisquam quis in. Possimus suscipit iusto quo?</p>
-            </div>
-        </div>
-
-    </div>
-</body>-->
+  
+    </div>     
 
 
 
@@ -102,10 +186,6 @@
 
 
 
-
-
-</body>
-</html>
 
 
 
