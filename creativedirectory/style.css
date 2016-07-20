@@ -50,47 +50,15 @@ body {
     padding-bottom:25px;
     float:right;
 }
-/*
-.sushibox {
-	width:10px;
-	
-    background:#777;
-    margin:10px;
-    border-color:#222;
-    padding:5px;
-    float:left;
-}
 
-
-/*
-.sushibox {
-	width:100px;
-	height:5px;
-    background:#666;
-    margin:1px;
-    border-color:green;
-    padding:5px;
-    float:left;
-}
-*/
 
       
 
 
 
-footer {
-	margin-top: 60px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: #383838;
-	color: #FFFFFF;
-	text-align: center;
-}
 
 
 
-
-/*tablet
 
 @media(min-width: 768px) and (max-width: 991px) {
     .chickenbox
@@ -104,7 +72,7 @@ footer {
         border-color: #aaffdd;
     }
 
-    .beefbox{
+    .chickenbox{
 
     	width:30%
         height:10%;
@@ -132,7 +100,7 @@ footer {
         border-color:#345ffe;
     }
 }
-/* 
+
 
 
 @media(min-width: 992px) {
@@ -150,7 +118,7 @@ footer {
         
     }
 
-.beefbox{
+.chickenbox{
 
     	width:20%
         height:10%;
@@ -164,7 +132,7 @@ footer {
 
 
 
-    .sushibox{
+    .chickenbox{
 
     	width:20%
         height:10%;
@@ -178,7 +146,7 @@ footer {
 
 }
 
-/* mobile
+
 
 
 @media (max-width: 767px){
@@ -191,7 +159,7 @@ footer {
         
     }
 
-.beefbox{
+.chickenbox{
 
     	width:70%
         height:10%;
@@ -200,7 +168,7 @@ background-color:#aabbcc;
 
 
 
-    .sushibox{
+    .chickenbox{
 
     	width:70%
         height:10%;
@@ -212,8 +180,17 @@ background-color:#aabbcc;
 
 
 
+footer {
+	margin-top: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #383838;
+	color: #FFFFFF;
+	text-align: center;
+}
 
-*/
+
+
 
 
 
