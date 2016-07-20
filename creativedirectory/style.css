@@ -26,29 +26,29 @@ height:50px;
 
 }
 .chickenbox {
-	width:11%;
+	width:100px;
 	height:5px;
     background:#444;
-    margin:10%;
+    margin:1px;
     border-color:blue;
     padding:5px;
     float:left;
 }
 .beefbox {
-	width:11%;
+	width:100px;
 	height:5px;
     background:#555;
-    margin:10%;
+    margin:1px;
     border-color:brown;
     padding:5px;
     float:left;
 }
 
 .sushibox {
-	width:11%;
+	width:100px;
 	height:5px;
     background:#666;
-    margin:10%;
+    margin:1px;
     border-color:green;
     padding:5px;
     float:left;
