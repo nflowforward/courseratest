@@ -90,6 +90,141 @@ footer {
 
 
 
+/*tablet
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .chickenbox
+    {
+        width:30%
+        height:10%;
+        margin-right:10px;
+        margin-bottom: 15px;
+        float:left;
+        background-color: #AFFFF4;
+        border-color: #aaffdd;
+    }
+
+    .beefbox{
+
+    	width:30%
+        height:10%;
+        margin-bottom: 15px;
+        background-color: red;
+       border-color: #ff4444;
+        float:right;
+
+
+    }
+
+
+
+    .sushibox{
+
+    	width:90%
+        height:10%;
+        margin-top: 15px;
+        padding-top: 15px;
+      
+     
+        float:center;
+        column-width:12;
+        background-color:black;
+        border-color:#345ffe;
+    }
+}
+/* desktop*/
+
+
+@media(min-width: 992px) {
+    .chickenbox
+    {
+       width:20%
+        height:10%;
+        
+        float:left;
+     background-color: #AFFFF4;
+        border:5px 
+        border-color: black; 
+        margin-right: 15px; 
+
+        
+    }
+
+.beefbox{
+
+    	width:20%
+        height:10%;
+        margin-right: 15px;
+        float:left;
+       background-color:#cccccc;
+       border-color:red;
+       border:5px; 
+
+    }
+
+
+
+    .sushibox{
+
+    	width:20%
+        height:10%;
+        margin-left:25px;
+        float:right;
+      background-color:#aabbcc; 
+      border:5px;
+
+
+    }
+
+}
+
+/* mobile*/
+
+
+@media (max-width: 767px){
+.chickenbox
+    {
+        width:70%
+        height:10%;
+        background-color: #AFFFF4;
+        border-color: #aaffdd;
+        
+    }
+
+.beefbox{
+
+    	width:70%
+        height:10%;
+background-color:#aabbcc;
+    }
+
+
+
+    .sushibox{
+
+    	width:70%
+        height:10%;
+         background-color:#ffffff;
+    }
+}
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+</style>
+
+
+
 
 
 
