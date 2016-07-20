@@ -94,7 +94,7 @@ footer {
         border-color:#345ffe;
     }
 }
-/* desktop*/
+/* 
 
 
 @media(min-width: 992px) {
@@ -140,7 +140,7 @@ footer {
 
 }
 
-/* mobile*/
+/* mobile
 
 
 @media (max-width: 767px){
