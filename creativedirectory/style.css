@@ -22,7 +22,7 @@ body {
 }
            
 .row{
-height:50px;
+
 
 }
 .chickenbox {
@@ -30,7 +30,7 @@ height:50px;
 	height:5px;
     background:#444;
     margin:1px;
-    border-color:blue;
+    border-color:#222;
     padding:5px;
     float:left;
 }
