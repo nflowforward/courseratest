@@ -83,7 +83,13 @@ body {
 
 
     }
-
+#section{
+	width:5px;
+	border-color: yellow;
+	text-align:right;
+	margin:auto;
+	padding:auto;
+}
 
 
     .chickenbox{
