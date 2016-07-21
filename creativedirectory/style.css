@@ -85,6 +85,7 @@ body {
     }
 #section{
 	width:5px;
+	background-color:green;
 	border-color: yellow;
 	text-align:right;
 	margin:auto;
