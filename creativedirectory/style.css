@@ -42,33 +42,6 @@ body {
 }
 
 
-#sushibox {
-	width:20px;
-	height:5px;
-	
-    background:#442;
-    margin-left:25px;
-    border-color:#110;
-    padding-top:7px;
-    padding-bottom:5px; 
-    float:left;
-    clear:right;
-}
-
-      
-
-#beefbox {
-	width:20px;
-	height:5px;
-	
-    background:#443;
-    margin-left:25px;
-    border-color:#110;
-    padding-top:7px;
-    padding-bottom:5px; 
-    float:left;
-}
-
 
 
 
