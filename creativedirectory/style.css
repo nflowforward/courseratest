@@ -51,7 +51,7 @@ body {
 @media(min-width: 768px) and (max-width: 991px) {
     .chickenbox
     {
-        width:30%
+        width:33%
         height:10%;
         margin-right:10px;
         margin-bottom: 15px;
@@ -63,7 +63,7 @@ body {
 
     .chickenbox{
 
-    	width:30%
+    	width:33%
         height:10%;
         margin-bottom: 15px;
         background-color: red;
@@ -75,13 +75,13 @@ body {
 
 .chickenbox {
 	
-	
+	width:66%
     background:#442;
     margin-left:25px;
     border-color:#144;
     padding-top:7px;
     padding-bottom:5px; 
-    float:left;
+    float:center;
     
 }
 
@@ -100,7 +100,7 @@ body {
         height:10%;
         
         float:left;
-     background-color: #AFFFF4;
+     background-color: #131;
         border:5px 
         border-color: black; 
         margin-right: 15px; 
@@ -114,7 +114,7 @@ body {
         height:10%;
         margin-right: 15px;
         float:left;
-       background-color:#cccccc;
+       background-color:#134;
        border-color:red;
        border:5px; 
 
@@ -128,7 +128,7 @@ body {
         height:10%;
         margin-left:25px;
         float:right;
-      background-color:#aabbcc; 
+      background-color:#136; 
       border:2px;
 
 
@@ -145,8 +145,10 @@ body {
     {
         width:70%
         height:10%;
-        background-color: #AFFFF4;
-        border-color: #aaffdd;
+        background-color: #136;
+        border-color: #135;
+        margin-left: 10px;
+
         
     }
 
@@ -154,7 +156,9 @@ body {
 
     	width:70%
         height:10%;
-background-color:#aabbcc;
+background-color:#145;
+border-color: #166;
+margin-left:10px;
     }
 
 
@@ -163,7 +167,9 @@ background-color:#aabbcc;
 
     	width:70%
         height:10%;
-         background-color:#ffffff;
+         background-color:#145;
+         border-color:#177;
+         margin-left: 10px;
     }
 }
 
