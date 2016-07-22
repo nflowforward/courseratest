@@ -41,16 +41,6 @@ body {
 }
 
 
-.beefbox {
-	width:10px;
-	
-    background:#666;
-    margin:25px;
-    border-color:#333;
-    padding-bottom:25px;
-    float:right;
-}
-
 
       
 
@@ -58,7 +48,7 @@ body {
 
 
 
-
+/* tablet*/
 
 @media(min-width: 768px) and (max-width: 991px) {
     .chickenbox
@@ -83,32 +73,21 @@ body {
 
 
     }
-#section{
-	width:5px;
-	background-color:green;
-	border-color: yellow;
-	text-align:right;
-	margin:auto;
-	padding:auto;
-}
 
 
     .chickenbox{
 
-    	width:5%
-        
-        margin-top: 15px;
-        padding-top: 15px;
-      
-     
+    	
+        height:10%;
+        margin-bottom: 15px;
+        background-color: red;
+       border-color: #ff4444;
         float:center;
-        column-width:12;
-        background-color:black;
-        border-color:#345ffe;
     }
 }
 
 
+/* desktop*/
 
 @media(min-width: 992px) {
     .chickenbox
@@ -154,6 +133,7 @@ body {
 }
 
 
+/*mobile*/
 
 
 @media (max-width: 767px){
