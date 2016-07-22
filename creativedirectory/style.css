@@ -41,6 +41,17 @@ body {
 }
 
 
+.sushibox {
+	
+	height:5px;
+	
+    background:#445;
+    margin-left:25px;
+    border-color:#110;
+    padding-top:7px;
+    padding-bottom:5px; 
+    float:left;
+}
 
       
 
@@ -74,16 +85,20 @@ body {
 
     }
 
+.sushibox {
+	
+	height:5px;
+	
+    background:#445;
+    margin-left:25px;
+    border-color:#110;
+    padding-top:7px;
+    padding-bottom:5px; 
+    float:left;
+}
 
-    .chickenbox{
 
-    	
-        height:10%;
-        margin-bottom: 15px;
-        background-color: red;
-       border-color: #ff4444;
-        float:center;
-    }
+   
 }
 
 
