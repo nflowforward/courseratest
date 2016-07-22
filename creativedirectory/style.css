@@ -92,7 +92,7 @@ body {
         margin-bottom: 15px;
         background-color: red;
        border-color: #ff4444;
-        float:right;
+        float:left;
 
 
     }
@@ -132,7 +132,7 @@ body {
         
     }
 
-.chickenbox{
+.beefbox{
 
     	width:20%
         height:10%;
@@ -146,7 +146,7 @@ body {
 
 
 
-    .chickenbox{
+    .sushibox{
 
     	width:20%
         height:10%;
