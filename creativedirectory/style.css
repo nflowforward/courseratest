@@ -84,7 +84,8 @@ body {
         margin-bottom: 15px;
         float:left;
         background-color: #AFFFF4;
-        border-color: #aaffdd;
+        border-color: #134;
+        float:left;
     }
 
     .beefbox{
@@ -93,7 +94,7 @@ body {
         height:10%;
         margin-bottom: 15px;
         background-color: red;
-       border-color: #ff4444;
+       border-color: #123;
         float:left;
 
 
@@ -105,11 +106,11 @@ body {
 	
     background:#442;
     margin-left:25px;
-    border-color:#110;
+    border-color:#144;
     padding-top:7px;
     padding-bottom:5px; 
     float:left;
-    clear:both;
+    
 }
 
 
