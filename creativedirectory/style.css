@@ -85,7 +85,7 @@ body {
         border-color: #aaffdd;
     }
 
-    .chickenbox{
+    .beefbox{
 
     	width:30%
         height:10%;
@@ -98,16 +98,17 @@ body {
     }
 
 .sushibox {
-	
+	width:auto;
 	height:5px;
 	
-    background:#445;
+    background:#442;
     margin-left:25px;
     border-color:#110;
     padding-top:7px;
     padding-bottom:5px; 
     float:left;
 }
+
 
 
    
