@@ -28,6 +28,13 @@ body {
 
 
 }
+#titlebox{
+	position:absolute;
+	width:auto;
+	border-color: #134;
+}
+
+}
 .chickenbox {
 	width:20px;
 	height:5px;
@@ -46,7 +53,7 @@ body {
 
 
 
-/* tablet*
+/*tablet*/
 
 @media(min-width: 768px) and (max-width: 991px) {
     .chickenbox
@@ -61,7 +68,7 @@ body {
         float:left;
     }
 
-    .chickenbox{
+    .beefbox{
 
     	width:33%
         height:10%;
@@ -73,9 +80,9 @@ body {
 
     }
 
-.chickenbox {
+.sushibox {
 	
-	width:66%
+	width:80%
     background:#442;
     margin-left:25px;
     border-color:#144;
