@@ -10,6 +10,15 @@ p {
 
 	
 }
+
+p.example{
+position: absolute;
+
+	width:10px;
+	text-align:center;
+	border:2px;
+
+}
 h1 {
 	text-align: center;
 	text-shadow: 50px; 
@@ -28,13 +37,7 @@ body {
 
 
 }
-#titlebox{
-	position:absolute;
-	width:auto;
-	border-color: #134;
-	border:10px
-	background-color:blue;
-}
+
 
 }
 .chickenbox {
