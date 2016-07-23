@@ -28,7 +28,7 @@ h1 {
 
 
 }
-h3{
+div.h3{
 
 	position:absolute;
 	width:25px;
@@ -37,7 +37,7 @@ h3{
 	border:5px;
 	background-color:#234;
 	text-align:right;
-	
+
 
 
 
