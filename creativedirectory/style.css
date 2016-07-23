@@ -34,7 +34,12 @@ h3{
 	width:25px;
 	background:#134;
 	border-color:2px solid green;
+	border:5px;
+	background-color:#234;
+	text-align:right;
 	
+
+
 
 
 }
