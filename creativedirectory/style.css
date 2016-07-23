@@ -11,7 +11,7 @@ p {
 	
 }
 
-p.example{
+.example{
 position: absolute;
 
 	width:100px;
@@ -33,10 +33,7 @@ body {
     background-color:lightgrey;
 }
            
-.row{
 
-
-}
 
 
 }
@@ -73,7 +70,7 @@ body {
         float:left;
     }
 
-    .beefbox{
+    .chickenbox{
 
     	width:33%
         height:10%;
@@ -85,7 +82,7 @@ body {
 
     }
 
-.sushibox {
+.chickenbox {
 	
 	width:80%
     background:#442;
